@@ -1,0 +1,83 @@
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+form>h2, form>h4{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    border: 1px solid;    
+    height: 700px;
+    margin: 60px; 
+    border-color: rgb(208, 211, 214);   
+}
+
+.input-email, .input-pass{
+    width: 300px;
+    height: 20px;
+}
+
+.login-container{
+    padding-left: 20px;
+    height: 500px;
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pwd{
+    font-size: smaller;
+    margin: 0;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 150px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color:rgb(44, 96, 250) ;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px
+}
+
+.register-div{
+    text-align: center;
+}
+
+
+#login-brand{
+    flex-basis: 50%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+.design{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 180px;   
+}
+
+.pic{
+    border-radius: 50%;
+}
